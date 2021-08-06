@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito&display=swap');
+.nav-link{
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+}
+.navbar-nav{
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+}
+.nav-item{
+    padding-left: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #F4EFF9;
+}
+/* change the link color */
+.navbar-nav .nav-item .nav-link {
+    color: #F4EFF9;
+}
+/* change the color of active or hovered links */
+.navbar-nav .nav-item:hover .nav-link {
+    background-color: #ECEBF3;
+    color: #131214;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+.dropdown-menu{
+    border-radius: 12px;
+}
+.dropdown-item{
+    font-weight: bold;
+    font-size: 14.5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #fff;
+    color: #FA8072;
+    transition: color 0.3s;
+}
+/*dropdown hover show*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+.userLinks{
+    color: #F4EFF9;
+    font-size: 18px;
+    margin: 8px;
+    padding: 5.5px 10px;
+}
+.userLinks:hover{
+    text-decoration: none;
+    background-color: #ECEBF3;
+    color: #131214;
+    border-radius: 12px;
+    transition: background-color 0.5s;
+}
+.btn-register{
+    background-color: #F8485E;
+    border-radius: 10px;
+}
+.btn-register, .btn-login{
+    color: #F4EFF9;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    padding: 6.5px 10px;
+    margin-right: 3px; 
+    margin-left: 3px;
+    border: none;
+}
+.btn-login:hover{
+    text-decoration: none;
+    color: #F8485E;
+    transition: color 0.3s;
+}
+.btn-register:hover{
+    text-decoration: none;
+    color: #F4EFF9;
+    background-color: #EF2D45;
+    transition: background-color 0.5s;
+}
+.footer{
+    padding-top: 70px;
+    padding-bottom:70px; 
+    color:white;
+    background-color: #3C3C3C;
+}
+.list-contact{
+    background-color: #3C3C3C;
+    border: 0 none;
+}
+.bottom-footer{
+    background-color: #3C3C3C;
+}
+.footer-bottom-text{
+    opacity: 0.7;
+}
