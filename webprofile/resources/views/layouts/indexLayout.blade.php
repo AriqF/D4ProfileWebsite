@@ -7,28 +7,28 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Beranda</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Tentang Kami
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Visi Misi</a>
+                        <a class="dropdown-item" href="/vision-mission">Visi Misi</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Struktur Organisasi</a>
+                        <a class="dropdown-item" href="/organization">Struktur Organisasi</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Akreditasi</a>
+                        <a class="dropdown-item" href="/accreditation">Akreditasi</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Aktifitas Sosial</a>
+                    <a class="nav-link" href="/social-activities">Aktifitas Sosial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Prestasi</a>
+                    <a class="nav-link" href="/awards">Prestasi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Fasilitas</a>
+                    <a class="nav-link" href="/facility">Fasilitas</a>
                 </li>
                 
             </ul>
