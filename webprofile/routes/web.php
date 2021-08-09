@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/vision-mission', function () {
+    return view('vision-mission');
+});
+Route::get('/organization', function () {
+    return view('organization');
+});
+Route::get('/accreditation', function () {
+    return view('accreditation');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
