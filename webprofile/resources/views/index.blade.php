@@ -10,19 +10,19 @@
         @extends('layouts.indexLayout')
         @section('mainContent')
         
-        <header class="pagehead" style="background-image: url('{{asset('img/ut.jpg')}}');">
+        <header class="pagehead" id="bg-index">
             <div class="container h-100">
                 <div class="d-flex bd-highlight h-100 align-items-center">
                     <div class="p-2 flex-fill bd-highlight text-left">
-                        <h1 id="page-title">Halaman Profil D4 Manajemen Informatika</h1>
+                        <h1 class="page-title">Halaman Profil D4 Manajemen Informatika</h1>
                         <p class="sub-title">Kami adalah mahasiswa informatika hu ha hu haaa</p>
-                        <a href="#info-section" class="btn-explore js-scroll-trigger" role="button" id="btn-exp">Jelajahi</a>
+                        <a href="#main-section" class="btn-explore js-scroll-trigger" role="button" id="btn-exp">Jelajahi</a>
                     </div>
 
                 </div>
             </div>
         </header>
-        <section class="page-section" id="info-section">
+        <section class="page-section info-section" id="main-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-8 col-lg-12 col-md-12 mb-4">
