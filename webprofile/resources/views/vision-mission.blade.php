@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Welcome</title>
+        <title>Visi dan Misi</title>
         @extends('layouts.head')
         <link rel="stylesheet" href="{{ asset('css/index.css') }}" type="text/css"> 
         <link rel="stylesheet" href="{{ asset('css/vision-mission.css') }}" type="text/css"> 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Organization</title>
+        <title>Struktur Organisasi</title>
         @extends('layouts.head')
         <link rel="stylesheet" href="{{ asset('css/index.css') }}" type="text/css"> 
         
