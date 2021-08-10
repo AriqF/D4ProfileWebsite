@@ -140,6 +140,19 @@ img {
 .table-awards-year{
     font-size: 18px;
 }
+.modal-link-title{
+    cursor: pointer;
+    color: #2E2A2A;
+}
+.modal-link-title:hover{
+    color: #2E2A2A;
+    text-decoration: none;
+}
+.modal-lead{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
 
 
 
