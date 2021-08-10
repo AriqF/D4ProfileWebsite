@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Galleri</title>
+        <title>Galeri</title>
         @extends('layouts.head')
         <link rel="stylesheet" href="{{ asset('css/index.css') }}" type="text/css"> 
     </head>
@@ -13,7 +13,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                         <div class="col-12 text-center">
-                            <h1 class="page-title">Galleri</h1>
+                            <h1 class="page-title">Galeri</h1>
                         </div>
                     </div>
                 </div>
