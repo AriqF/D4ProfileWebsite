@@ -104,5 +104,42 @@ img {
     color: #F4EFF9;
 }
 
+/*social-activities*/
+.activity-box{
+    padding: 20px;
+    margin-top: 20px;
+}
+.activity-box-img{
+    border-radius: 12px;
+}
+.activity-box-header, .activity-box-lead{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.activity-box-header{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.activity-box-lead{
+    font-size: 16px;
+}
+/*achievement*/
+#table-awards{
+    font-family: 'Maven Pro', sans-serif;
+}
+#table-awards-header{
+    font-size: 18px;
+}
+.table-awards-title{
+    font-size: 23px;
+    font-weight: 600;
+}
+.table-awards-category{
+    font-size: 18px;
+}
+.table-awards-year{
+    font-size: 18px;
+}
+
 
 
