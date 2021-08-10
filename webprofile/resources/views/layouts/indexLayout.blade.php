@@ -25,10 +25,13 @@
                     <a class="nav-link" href="/social-activities">Aktifitas Sosial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/awards">Prestasi</a>
+                    <a class="nav-link" href="/achievements">Prestasi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/facility">Fasilitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery">Galeri</a>
                 </li>
                 
             </ul>
@@ -117,3 +120,8 @@
 <!--anime js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!--swiper js-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!--my script-->
+<script type="text/javascript" src="{{ asset('js/swiper.css') }}"></script>
